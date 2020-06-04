@@ -44,23 +44,38 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 document.getElementsByTagName('nav');
   console.log(document.getElementsByTagName("img"))
 
-document.querySelectorAll('a');
+const nav = document.querySelectorAll('a');
+  console.log(nav);
 
-document.querySelector('a [0]');
+ nav[0].textContent = siteContent["nav"]["nav-item-1"]  
 
-document.querySelector('a [1]');
+ nav[1].textContent = siteContent["nav"]["nav-item-2"]
 
-document.querySelector('a [2]');
+ nav[2].textContent = siteContent["nav"]["nav-item-3"]
 
-document.querySelector('a [3]');
+ nav[3].textContent = siteContent["nav"]["nav-item-4"]
 
-document.querySelector('a [4]');
+ nav[4].textContent = siteContent["nav"]["nav-item-5"]
 
-document.querySelector('a [6]');
+ nav[5].textContent = siteContent["nav"]["nav-item-6"]
+
+// document.querySelector('Site');
+
+// document.querySelector('a [1]');
+
+// document.querySelector('a [2]');
+
+// document.querySelector('a [3]');
+
+// document.querySelector('a [4]');
+
+// document.querySelector('a [6]');
 
 document.querySelector('#logo-img');
 
-document.querySelector('cta');
+const ctaH1 = document.querySelector('.cta h1');
+// console.log(cta);
+ctaH1.textContent = siteContent["cta"]["h1"];
 
 document.getElementsByTagName('h1');
   console.log(document.getElementsByTagName('h1'))
@@ -73,17 +88,25 @@ document.querySelectorAll('.main-content');
 
 document.querySelector('.text-content h4');
 
-document.querySelector('');
+document.querySelector('features-content');
 
-document.querySelector('');
+document.querySelector('.main-content about-content');
 
-document.querySelector('');
+document.querySelector('about-h4');
 
-document.querySelector('');
+document.querySelector('#middle-img');
 
-document.querySelector('');
+document.querySelector('services-h4');
 
-document.querySelector('');
+document.querySelector('services-content');
+
+document.querySelector('product-h4');
+
+document.querySelector('product-content');
+
+document.querySelector('vision-h4');
+
+document.querySelector('vision-content');
 
 document.querySelector('.contact');
 
@@ -102,3 +125,4 @@ document.querySelector('copyright');
 
 document.getElementsByTagName('h1');
   console.log(document.getElementsByTagName('h1'))
+
