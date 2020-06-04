@@ -73,18 +73,30 @@ const nav = document.querySelectorAll('a');
 
 document.querySelector('#logo-img');
 
+// let logo = document.getElementById("logo-img");
+// logo.setAttribute('src', siteContent["nav"]["img-src"])
+
 const ctaH1 = document.querySelector('.cta h1');
 // console.log(cta);
 ctaH1.textContent = siteContent["cta"]["h1"];
 
-document.getElementsByTagName('h1');
-  console.log(document.getElementsByTagName('h1'))
+// document.getElementsByTagName('h1');
+//   console.log(document.getElementsByTagName('h1'))
 
-document.querySelector('button');
+const button = document.querySelector('.cta button');
+  // console.log(button);
+button.textContent = siteContent['cta']['button'];
 
-document.querySelector('#cta-img');
 
-document.querySelectorAll('.main-content');
+
+const ctaImg = document.getElementById("cta-img");
+  // console.log(cta-img);
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
+
+  // let logo = document.getElementById("logo-img");
+// logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const mainContent = document.querySelectorAll('.main-content');
 
 document.querySelector('.text-content h4');
 
@@ -108,7 +120,7 @@ document.querySelector('vision-h4');
 
 document.querySelector('vision-content');
 
-document.querySelector('.contact');
+const contact = document.querySelector('.contact');
 
 document.querySelector('.comntact h4');
 
@@ -118,7 +130,7 @@ document.querySelector('.contact phone');
 
 document.querySelector('.contact email');
 
-document.querySelector('footer');
+const footer = document.querySelector('footer');
 
 document.querySelector('copyright');
 // document.querySelector('nav');
