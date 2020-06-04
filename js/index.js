@@ -88,7 +88,6 @@ const button = document.querySelector('.cta button');
 button.textContent = siteContent['cta']['button'];
 
 
-
 const ctaImg = document.getElementById("cta-img");
   // console.log(cta-img);
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
@@ -97,42 +96,73 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 // logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const mainContent = document.querySelectorAll('.main-content');
+  console.log(mainContent);
 
-document.querySelector('.text-content h4');
 
-document.querySelector('features-content');
+const textH4 = document.querySelectorAll('h4');
+  console.log(textH4);
+  textH4[0].textContent = "Features";
+  textH4[1].textContent = "Features";
+  textH4[2].textContent = "Features";
+  textH4[3].textContent = "Features";
+  textH4[4].textContent = "Features";
+  textH4[5].textContent = "Contact";
+// textH4.textContent = siteContent['main-content']['features-h4'];
+
+const featuresP = document.querySelectorAll('p');
+featuresP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+featuresP[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+featuresP[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+featuresP[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+featuresP[4].textContent = "Visions content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+  // console.log(featuresP);
+
+
 
 document.querySelector('.main-content about-content');
 
 document.querySelector('about-h4');
 
-document.querySelector('#middle-img');
 
-document.querySelector('services-h4');
 
-document.querySelector('services-content');
+const middleImg = document.getElementById("middle-img");
+middleImg.src(siteContent[""]["img-src"])
 
-document.querySelector('product-h4');
+ // let logo = document.getElementById("logo-img");
+// logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-document.querySelector('product-content');
 
-document.querySelector('vision-h4');
+// document.querySelector('services-h4');
 
-document.querySelector('vision-content');
+// document.querySelector('services-content');
 
-const contact = document.querySelector('.contact');
+// document.querySelector('product-h4');
 
-document.querySelector('.comntact h4');
+// document.querySelector('product-content');
 
+// document.querySelector('vision-h4');
+
+// document.querySelector('vision-content');
+
+const contact = document.querySelectorAll('.contact');
+  console.log(contact);
+
+const h4 = document.querySelector('.comntact h4');
+// const ctaH1 = document.querySelector('.cta h1');
+// console.log(cta);
+// ctaH1.textContent = siteContent["cta"]["h1"];
 document.querySelector('.contact address');
 
 document.querySelector('.contact phone');
 
 document.querySelector('.contact email');
 
-const footer = document.querySelector('footer');
 
-document.querySelector('copyright');
+
+const footer = document.querySelector('footer');
+  console.log(footer);
+
+const copyright = document.querySelector('copyright');
 // document.querySelector('nav');
 
 document.getElementsByTagName('h1');
