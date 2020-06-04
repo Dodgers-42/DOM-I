@@ -40,3 +40,65 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+document.getElementsByTagName('nav');
+  console.log(document.getElementsByTagName("img"))
+
+document.querySelectorAll('a');
+
+document.querySelector('a [0]');
+
+document.querySelector('a [1]');
+
+document.querySelector('a [2]');
+
+document.querySelector('a [3]');
+
+document.querySelector('a [4]');
+
+document.querySelector('a [6]');
+
+document.querySelector('#logo-img');
+
+document.querySelector('cta');
+
+document.getElementsByTagName('h1');
+  console.log(document.getElementsByTagName('h1'))
+
+document.querySelector('button');
+
+document.querySelector('#cta-img');
+
+document.querySelectorAll('.main-content');
+
+document.querySelector('.text-content h4');
+
+document.querySelector('');
+
+document.querySelector('');
+
+document.querySelector('');
+
+document.querySelector('');
+
+document.querySelector('');
+
+document.querySelector('');
+
+document.querySelector('.contact');
+
+document.querySelector('.comntact h4');
+
+document.querySelector('.contact address');
+
+document.querySelector('.contact phone');
+
+document.querySelector('.contact email');
+
+document.querySelector('footer');
+
+document.querySelector('copyright');
+// document.querySelector('nav');
+
+document.getElementsByTagName('h1');
+  console.log(document.getElementsByTagName('h1'))
