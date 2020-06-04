@@ -59,6 +59,11 @@ const nav = document.querySelectorAll('a');
 
  nav[5].textContent = siteContent["nav"]["nav-item-6"]
 
+
+ 
+ for (let i=0; i<nav.length; i++){
+  nav[i].style.color = 'green' 
+ }
 // document.querySelector('Site');
 
 // document.querySelector('a [1]');
@@ -128,7 +133,7 @@ document.querySelector('.main-content about-content');
 
 
 const middleImg = document.getElementById("middle-img");
-// middleImg.src(siteContent[""]["img-src"])
+middleImg.src = siteContent["main-content"]["middle-img-src"]
 
  // let logo = document.getElementById("logo-img");
 // logo.setAttribute('src', siteContent["nav"]["img-src"])
