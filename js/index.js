@@ -102,10 +102,10 @@ const mainContent = document.querySelectorAll('.main-content');
 const textH4 = document.querySelectorAll('h4');
   console.log(textH4);
   textH4[0].textContent = "Features";
-  textH4[1].textContent = "Features";
-  textH4[2].textContent = "Features";
-  textH4[3].textContent = "Features";
-  textH4[4].textContent = "Features";
+  textH4[1].textContent = "About";
+  textH4[2].textContent = "Services";
+  textH4[3].textContent = "Product";
+  textH4[4].textContent = "Visions";
   textH4[5].textContent = "Contact";
 // textH4.textContent = siteContent['main-content']['features-h4'];
 
@@ -115,18 +115,20 @@ featuresP[1].textContent = "About content elementum magna eros, ac posuere elvit
 featuresP[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 featuresP[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 featuresP[4].textContent = "Visions content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+featuresP[5].textContent = "123 Way 456 Street Somewhere, USA"
+featuresP[6].textContent = "1 (888) 888-8888"
+featuresP[7].textContent = "sales@greatidea.io"
+featuresP[8].textContent =  "Copyright Great Idea! 2018"
   // console.log(featuresP);
-
-
 
 document.querySelector('.main-content about-content');
 
-document.querySelector('about-h4');
+// document.querySelector('about-h4');
 
 
 
 const middleImg = document.getElementById("middle-img");
-middleImg.src(siteContent[""]["img-src"])
+// middleImg.src(siteContent[""]["img-src"])
 
  // let logo = document.getElementById("logo-img");
 // logo.setAttribute('src', siteContent["nav"]["img-src"])
@@ -147,24 +149,26 @@ middleImg.src(siteContent[""]["img-src"])
 const contact = document.querySelectorAll('.contact');
   console.log(contact);
 
-const h4 = document.querySelector('.comntact h4');
+// const contactH4 = document.querySelector('.contact h4');
+// ctaH1.textContent = siteContent["contact"]["h4"];
+
 // const ctaH1 = document.querySelector('.cta h1');
 // console.log(cta);
 // ctaH1.textContent = siteContent["cta"]["h1"];
-document.querySelector('.contact address');
+// const contactAdd = document.querySelector('.contact address');
+// // contactAdd.textContent = siteContent["contact"]["address"];
+// document.querySelector('.contact phone');
 
-document.querySelector('.contact phone');
-
-document.querySelector('.contact email');
+// document.querySelector('.contact email');
 
 
 
-const footer = document.querySelector('footer');
-  console.log(footer);
+// const footer = document.querySelector('footer');
+//   console.log(footer);
 
-const copyright = document.querySelector('copyright');
-// document.querySelector('nav');
+// const copyright = document.querySelector('copyright');
+// // document.querySelector('nav');
 
-document.getElementsByTagName('h1');
-  console.log(document.getElementsByTagName('h1'))
+// document.getElementsByTagName('h1');
+//   console.log(document.getElementsByTagName('h1'))
 
