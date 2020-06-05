@@ -71,7 +71,7 @@ const nav = document.querySelectorAll('a');
 //  const navigation = document.querySelector('nav')
 //   navigation.appendChild(newContent)
 
- const newContent = document.createElement('nav[a]');
+ const newContent = document.createElement('a');
  newContent.textContent = "Home";
  newContent.style.color = "green";
 
@@ -82,12 +82,13 @@ const nav = document.querySelectorAll('a');
 //  nav.append(newContent);
 
 
-//  const newNav = document.createElement('nav[a]');
-//  newNav.textContent = "Back";
-//  newNav.style.color = "green";
 
-//  const body = document.querySelector('body');
-//  nav.append(newContent);
+ const newNav = document.createElement('a');
+ newNav.textContent = "Back";
+ newNav.style.color = "green";
+
+//  const body = document.querySelector('nav');
+ navigation.prepend(newNav);
 
 
 
