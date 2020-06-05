@@ -65,6 +65,37 @@ const nav = document.querySelectorAll('a');
   nav[i].style.color = 'green' 
  }
 
+
+
+
+//  const navigation = document.querySelector('nav')
+//   navigation.appendChild(newContent)
+
+ const newContent = document.createElement('nav[a]');
+ newContent.textContent = "Home";
+ newContent.style.color = "green";
+
+ const navigation = document.querySelector('nav')
+  navigation.appendChild(newContent)
+
+//  const body = document.querySelector('body');
+//  nav.append(newContent);
+
+
+//  const newNav = document.createElement('nav[a]');
+//  newNav.textContent = "Back";
+//  newNav.style.color = "green";
+
+//  const body = document.querySelector('body');
+//  nav.append(newContent);
+
+
+
+
+
+
+
+
 //  siteContent.nav.appendChild(Home);
 
 //  siteContent.nav.appendChild(Landing);
