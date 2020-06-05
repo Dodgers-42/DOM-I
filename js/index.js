@@ -64,6 +64,13 @@ const nav = document.querySelectorAll('a');
  for (let i=0; i<nav.length; i++){
   nav[i].style.color = 'green' 
  }
+
+//  siteContent.nav.appendChild(Home);
+
+//  siteContent.nav.appendChild(Landing);
+
+
+
 // document.querySelector('Site');
 
 // document.querySelector('a [1]');
@@ -106,7 +113,7 @@ const mainContent = document.querySelectorAll('.main-content');
 
 const textH4 = document.querySelectorAll('h4');
   console.log(textH4);
-  textH4[0].textContent = "Features";
+  textH4[0].textContent = siteContent["main-content"]["features-h4"];
   textH4[1].textContent = "About";
   textH4[2].textContent = "Services";
   textH4[3].textContent = "Product";
@@ -115,7 +122,7 @@ const textH4 = document.querySelectorAll('h4');
 // textH4.textContent = siteContent['main-content']['features-h4'];
 
 const featuresP = document.querySelectorAll('p');
-featuresP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+featuresP[0].textContent = siteContent["main-content"]["features-content"];
 featuresP[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 featuresP[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 featuresP[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
